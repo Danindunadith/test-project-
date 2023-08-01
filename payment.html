@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head> 
+    <title>payment</title>
+	   <style>
+     
+	 body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+	  background-color:;
+	   background-image: url("file:///C:/Users/Admin/Desktop/IWT/src/images/abstract-wave-background-with-dynamic-effect-motion-illustration-blue-gold-color-trendy-gradients_181182-3275.avif");
+      background-size: cover;
+      background-position: center;
+}
+	 
+	 h1 {
+      text-align: center;
+	  padding: 10px;
+    }
+	
+	label {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+     }
+	.form {
+	  text-align:center;
+	  
+	}
+	
+	.payments {
+	  text-align:center;
+	}
+	
+	input[type="text"],
+    input[type="dat"] {
+  
+     width: 30%;
+     padding: 10px;
+     margin-bottom: 15px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     box-sizing: border-box;
+   }
+   
+   button[type="submit"]
+   {
+     cursor: pointer;
+	 border-radius: 5px;
+     width:10%;
+   }
+   </style>
+  </head>
+<body>
+
+
+<div class="form">
+
+ <form method="POST" action="connect.php">
+ <h1>Card details</h1><br/>
+        <label for="cardNumber">Card Number:</label>
+        <input type="text" id="cardNumber" name="cardNumber" required><br><br>
+
+        <label for="expirationDate">Expiration Date:</label>
+        <input type="text" id="expirationDate" name="expirationDate" required><br><br>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required><br><br>
+
+        <label for="name">Cardholder Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <input type="submit" value="Pay Now" >    		
+</div>
+</form>
+ <hr>
+  <div class="payments">
+  <a href="https://www.youtube.com/@lankahospitals"> Youtube</a>
+  <a href="https://en.wikipedia.org/wiki/Lanka_Hospitals"> Wikipedia</a>
+  <a href="https://www.facebook.com/lankahospitalsplc/">Facebook</a>
+  </div>
+</body>
+</html>
